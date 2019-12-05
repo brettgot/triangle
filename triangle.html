@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type= "text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="header">Triangle Tracker</h1>
+
+      <div id="answers">
+
+      <h3 id="notTitle">You chose <strong>NOT</strong> a triangle</h3>
+      <h3 id="isoTitle"> You chose an Isosceles Triangle</h3>
+      <h3 id="scaTitle">You chose a Scalene Triangle</h3>
+      <h3 id ="equTitle">You chose an Equilateral Trialgle</h3>
+      <img id="not" src="img/not.gif" alt="">
+      <img id="iso" src="img/isosceles.png" alt="">
+      <img id="equ" src="img/Equilateral.png" alt="">
+      <img id="sca" src="img/Scalene.png" alt="">
+
+      </div><!--answers-->
+      <form id="compare">
+        <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="A">Side A:</label>
+            <input id="A" class="form-control" type="text">
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="B">Side B:</label>
+            <input id="B" class="form-control" type="text">
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="C">Side C:</label>
+            <input id="C" class="form-control" type="text">
+          </div>
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </div><!--container-->
+
+  </body>
+</html>

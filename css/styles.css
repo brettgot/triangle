@@ -1,0 +1,18 @@
+#not, #iso, #equ, #sca, #notTitle, #isoTitle, #equTitle, #scaTitle {
+  display: none;
+
+}
+
+strong {
+  font-size: 100px;
+  font-style: italic;
+  color: #009943;
+}
+.btn {
+margin-left: 45%;
+}
+
+.header {
+  text-align: center;
+  color: purple;
+}
